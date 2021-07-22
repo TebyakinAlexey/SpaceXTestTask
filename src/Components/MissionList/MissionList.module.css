@@ -1,0 +1,27 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+}
+
+.Item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.Img {
+    width: 20%;
+    height: fit-content;
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+}
+
+.Combo {
+    height: 30px;
+    font-size: 25px;
+}
+
+.ComboFont {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.ComboContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
