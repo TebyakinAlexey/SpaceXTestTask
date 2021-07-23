@@ -51,10 +51,10 @@ const MissionFilter = () => {
         <div className={styles.Main}>
             <div className={styles.ComboContainer}>
                 <span className={styles.ComboFont}>LaunchSite</span>
-                    <select className={styles.Combo} onChange={ (e) => dispatch(selectLaunchSide(e.target.value))} value={state.selectedLaunchSide}>
-                        {launchSidesItems}
-                    </select>
-                </div>
+                <select className={styles.Combo} onChange={ (e) => dispatch(selectLaunchSide(e.target.value))} value={state.selectedLaunchSide}>
+                    {launchSidesItems}
+                </select>
+            </div>
             <div className={styles.ComboContainer} style={{marginLeft: 20}}>
                 <span className={styles.ComboFont}>Rocket</span>
                 <select className={styles.Combo} onChange={ (e) => dispatch(selectRocket(e.target.value))} value={state.selectedRocket} >
